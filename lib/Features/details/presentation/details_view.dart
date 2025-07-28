@@ -1,3 +1,4 @@
+
 import 'package:bookly/Features/details/presentation/view/widgets/custom_app_bar_item.dart';
 import 'package:bookly/Features/details/presentation/view/widgets/custom_botton.dart';
 import 'package:bookly/Features/details/presentation/view/widgets/custom_continer_with_product_info.dart';

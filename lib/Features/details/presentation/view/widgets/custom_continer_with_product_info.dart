@@ -1,3 +1,4 @@
+
 import 'package:bookly/Features/details/presentation/view/widgets/custom_product_icon_and_category_name.dart';
 import 'package:flutter/material.dart';
 
@@ -100,7 +101,7 @@ class CustomContinerWithProductInfo extends StatelessWidget {
               ),
               Column(
                 children: [
-                  const Row(
+                   Row(
                     children: [
                       CustomProductIconAndCategoryname(
                         categoryName: 'Coffee',

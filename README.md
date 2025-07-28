@@ -1,4 +1,4 @@
-# coffe_app
+# bookly
 
 A new Flutter project.
 

@@ -1,6 +1,7 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 class GoogleButton extends StatefulWidget {
   const GoogleButton({super.key});
@@ -10,35 +11,33 @@ class GoogleButton extends StatefulWidget {
 }
 
 class _GoogleButtonState extends State<GoogleButton> {
-  Future signInWithGoogle() async {
-    // Trigger the authentication flow
-    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
-    if (googleUser == null) {
-      return;
-    }
+  Future<void> signInWithGoogle() async {
+    // try {
+    //   final GoogleSignIn googleSignIn = GoogleSignIn(); // ✅ Make sure this comes from google_sign_in.dart
+    //   final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
 
-    // Obtain the auth details from the request
-    final GoogleSignInAuthentication googleAuth =
-        await googleUser.authentication;
+    //   if (googleUser == null) return;
 
-    // Create a new credential
-    final credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth.accessToken,
-      idToken: googleAuth.idToken,
-    );
+    //   final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
 
-    // Once signed in, return the UserCredential
-    FirebaseAuth.instance.signInWithCredential(credential);
-    if (!context.mounted) return;
-    Navigator.of(context).pushNamedAndRemoveUntil('homepage', (route) => false);
+    //   final OAuthCredential credential = GoogleAuthProvider.credential(
+    //     accessToken: googleAuth.accessToken,
+    //     idToken: googleAuth.idToken,
+    //   );
+
+    //   await FirebaseAuth.instance.signInWithCredential(credential);
+
+    //   if (!context.mounted) return;
+    //   Navigator.of(context).pushNamedAndRemoveUntil('homepage', (route) => false);
+    // } catch (e) {
+    //   print("Google Sign-In Error: $e");
+    // }
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
-      onPressed: () {
-        signInWithGoogle();
-      },
+      onPressed: signInWithGoogle,
       height: 40,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       color: Colors.red[700],

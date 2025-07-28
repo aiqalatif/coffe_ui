@@ -1,4 +1,4 @@
-package com.example.coffe_app
+package com.example.bookly
 
 import io.flutter.embedding.android.FlutterActivity
 

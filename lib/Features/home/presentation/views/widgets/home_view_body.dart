@@ -1,12 +1,12 @@
 // ignore_for_file: avoid_function_literals_in_foreach_calls
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/custom_drawer.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/item_special.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/list_item_for_you.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/profile.dart';
 import 'package:bookly/Features/home/presentation/views/widgets/text_list_item.dart';
 import 'package:bookly/Features/search/presentation/views/widgets/total_search.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatefulWidget {

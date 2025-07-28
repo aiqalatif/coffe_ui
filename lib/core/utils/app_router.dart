@@ -1,7 +1,8 @@
-import 'package:bookly/Features/home/presentation/views/home_view.dart';
-import 'package:bookly/Features/login/presentatiion/login_view.dart';
 
 import 'package:go_router/go_router.dart';
+
+import 'package:bookly/Features/home/presentation/views/home_view.dart';
+import 'package:bookly/Features/login/presentatiion/login_view.dart';
 
 abstract class AppRouter {
   static const kHomeView = '/homeView';
