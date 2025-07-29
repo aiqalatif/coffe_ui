@@ -69,9 +69,35 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - assets/images/
+     - assets/images/tea/grean tea.webp
+     - assets/images/latte/Caramel Latte.webp
+     - assets/images/cappuccine/flat white.jpeg
+     - assets/images/coffe/frappe.jpg
+     - assets/images/tea/chai tea.webp
+     - assets/images/cappuccine/chocolate cappuccino.jpeg
+     - assets/images/latte/French Toast Latte.webp
+     - assets/images/coffe/cafezinho.jpg
+     - assets/images/cappuccine/traditonal cappuccine.avif
+     - assets/images/tea/black tea.webp
+     - assets/fonts/GT Sectra Fine Regular.ttf
+     - assets/images/other/Hot Cider.jpeg
+     - assets/images/coffe/trukish.jpg
+     - assets/images/cappuccine/dry cappuccino.jpeg
+     - assets/images/other/Hot Lemonade.jpeg
+     - assets/images/coffe/kaffeost.jpg
+     - assets/images/coffe/kaffeost.jpg
+     - assets/images/tea/purple tea.webp
+     - assets/images/latte/vanilla latte.webp
+     - assets/images/coffe/ca phe de.jpg
+     - assets/images/coffe/cafe de olle.jpg
+     - assets/images/coffe/affogato.jpg
+     - assets/images/coffe/ca phe de.jpg
+     - assets/images/coffe/ethiopia genika.jpg
+     - assets/images/coffe/irish coffee.jpg
+     - assets/images/coffe/affogato.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

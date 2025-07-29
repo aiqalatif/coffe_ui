@@ -32,6 +32,14 @@ abstract class AppRouter {
       //     child: BookDetailsView(
       //       bookModel: state.extra as BookModel,
       //     ),
+
+
+
+
+
+
+
+      
       //   ),
       // ),
     ],

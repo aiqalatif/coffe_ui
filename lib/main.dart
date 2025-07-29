@@ -12,6 +12,9 @@ import 'package:bookly/Features/other_page/tea_view.dart';
 import 'package:bookly/Features/person/presentation/person_view.dart';
 import 'package:bookly/Features/signup/presentation/signup_view.dart';
 import 'package:bookly/Features/splesh/presentation/splesh_view.dart';
+import 'package:bookly/core/utils/function/custom_favorite_product_list.dart';
+import 'package:bookly/firebase_options.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -21,19 +24,17 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  // FavoriteProductCubit().addProductToList(
-  //     'Ahmed@gamil.com',
-  //     ProductModel(
-  //         title: 'milk',
-  //         descrip: 'is the best milk',
-  //         imagUrl: 'image.milk',
-  //         price: '4'));
-  // var x =
-  //     await FavoriteProductCubit().getFavoriteProductData('Ahmed@gamil.com');
-  // print("x is ${x.length}");
+
+  // Check if Firebase is already initialized
+  if (Firebase.apps.isEmpty) {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  }
+
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
