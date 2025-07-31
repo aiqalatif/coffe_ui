@@ -97,6 +97,16 @@ flutter:
      - assets/images/coffe/ethiopia genika.jpg
      - assets/images/coffe/irish coffee.jpg
      - assets/images/coffe/affogato.jpg
+     - assets/images/latte/Cinnamon Latte.jpeg
+     - assets/images/latte/gingerbread latte.webp
+     - assets/images/latte/Hazelnut Latte.jpeg
+     - assets/images/latte/lavender latte.webp
+     - assets/images/cappuccine/Hazelnut Cappuccino.jpg
+     - assets/images/latte/pistachio latte.webp
+     - assets/images/latte/pistachio latte.webp
+     - assets/images/latte/pistachio latte.webp
+     
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

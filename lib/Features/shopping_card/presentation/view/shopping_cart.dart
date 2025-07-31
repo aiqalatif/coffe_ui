@@ -1,9 +1,11 @@
+
 import 'package:bookly/Features/home/data/Cubits/delete_note_cubit/delete_cubit.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/custom_app_bar_shopping.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/custom_sliver_list.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/custom_text_form_field.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/custom_total_price.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/order_product_widget.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

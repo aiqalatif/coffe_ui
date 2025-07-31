@@ -49,7 +49,7 @@ class Utility {
         aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1),
         compressQuality: 70,
         maxWidth: 800,
-        cropStyle: CropStyle.circle,
+       
         maxHeight: 800,
       );
     } catch (e) {

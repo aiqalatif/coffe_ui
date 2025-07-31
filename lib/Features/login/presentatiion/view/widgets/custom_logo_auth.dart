@@ -9,16 +9,11 @@ class LogoImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.center,
-      child: CircleAvatar(
-        radius: 50,
-        child: ClipOval(
-          child: Image.asset(
-            'assets/images/logo.jpeg', // Replace with the URL of your image
-            width: 150.0,
-            height: 200.0,
-            fit: BoxFit.cover,
-          ),
-        ),
+      child: Image.asset(
+        'assets/images/cup.png', // Replace with the URL of your image
+        width: double.infinity,
+        height: 200.0,
+        fit: BoxFit.cover,
       ),
     );
   }

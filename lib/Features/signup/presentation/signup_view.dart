@@ -3,6 +3,7 @@
 import 'package:bookly/Features/login/presentatiion/view/widgets/custom_text_field.dart';
 import 'package:bookly/Features/signup/presentation/view/widgets/sign_up_button.dart';
 import 'package:bookly/Features/signup/presentation/view/widgets/to_login.dart';
+
 import 'package:flutter/material.dart';
 
 class SingnUpView extends StatefulWidget {

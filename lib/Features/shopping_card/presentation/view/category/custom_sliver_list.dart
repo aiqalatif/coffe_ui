@@ -1,7 +1,9 @@
+
 import 'package:bookly/Features/home/data/Cubits/delete_note_cubit/delete_cubit.dart';
 import 'package:bookly/Features/home/data/Cubits/delete_note_cubit/delete_cubit_states.dart';
 import 'package:bookly/Features/shopping_card/presentation/view/category/custom_product_card_shopping_cart.dart';
 import 'package:bookly/core/utils/function/custom_shopping_list.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

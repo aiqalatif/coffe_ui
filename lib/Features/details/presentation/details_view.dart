@@ -4,11 +4,12 @@ import 'package:bookly/Features/details/presentation/view/widgets/custom_botton.
 import 'package:bookly/Features/details/presentation/view/widgets/custom_continer_with_product_info.dart';
 import 'package:bookly/Features/details/presentation/view/widgets/custom_product_description.dart';
 import 'package:bookly/Features/details/presentation/view/widgets/custom_product_image.dart';
-import 'package:bookly/Features/details/presentation/view/widgets/custom_product_price_column.dart';
+import 'package:bookly/Features/details/presentation/view/widgets/custom_product_price_column.dart' show CustomproductPriceColumn;
 import 'package:bookly/Features/details/presentation/view/widgets/custom_product_size_bottons.dart';
 import 'package:bookly/Features/details/presentation/view/widgets/custom_productsize_text.dart';
 import 'package:bookly/core/utils/function/custom_favorite_product_list.dart';
 import 'package:bookly/core/utils/function/custom_shopping_list.dart';
+
 import 'package:flutter/material.dart';
 
 class DetailsView extends StatefulWidget {
